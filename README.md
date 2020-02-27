@@ -2,7 +2,7 @@
 
 ### Setup 
 ```sh
-$ git clone https://github.com/thaioliva/eyemobile-challenge-doc 
+$ git clone git@github.com:thaioliva/eyemobile-challenge-doc.git 
 $ npm install
 $ npm start
 ```
