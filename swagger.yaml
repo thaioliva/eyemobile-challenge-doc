@@ -1,0 +1,108 @@
+swagger: "2.0"
+info:
+  description: "API eyemobile challenge"
+  version: "1.0"
+  title: "Eyemobile-challenge"
+host: "http://teste.com"
+basePath: "/"
+tags:
+
+- name: ""
+  description: ""
+
+schemes:
+- "HTTP protocol"
+paths:
+  /balance:
+    get:
+      tags:
+      - ""
+      summary: "Saldo"
+      parameters:
+      - name: "Content-Type"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      - name: "x-access-token"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      responses:
+        200:
+          description: "successful operation"
+  /login:
+    post:
+      tags:
+      - ""
+      summary: "login"
+      consumes:
+        - "application/json"
+      parameters:
+      - name: "Content-Type"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      responses:
+        200:
+          description: "successful operation"
+  /logout:
+    get:
+      tags:
+      - ""
+      summary: "Logout"
+      parameters:
+      - name: "Content-Type"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      - name: "x-access-token"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      responses:
+        200:
+          description: "successful operation"
+  /transactions:
+    get:
+      tags:
+      - ""
+      summary: "Consulta transações"
+      parameters:
+      - name: "Content-Type"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      - name: "x-access-token"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      responses:
+        200:
+          description: "successful operation"
+    post:
+      tags:
+      - ""
+      summary: "Adicionar transações"
+      consumes:
+        - "application/json"
+      parameters:
+      - name: "Content-Type"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      - name: "x-access-token"
+        in: "header"
+        type: "string"
+        description: ""
+        required: true
+      responses:
+        200:
+          description: "successful operation"

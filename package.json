@@ -1,0 +1,14 @@
+{
+  "name": "eyemobile-doc",
+  "version": "1.0.0",
+  "description": "API doc",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx lite-server"
+  },
+  "author": "@thaioliva",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
